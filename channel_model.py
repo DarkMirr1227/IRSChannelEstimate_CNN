@@ -151,6 +151,7 @@ Y = np.linspace(0,5,6,dtype=np.int64)
 X,Y = np.meshgrid(X,Y)
 ax.plot_surface(X,Y,result)
 #print(result)
+plt.title('UEposition : '+ str(UEposition))
 print('UEposition : ',UEposition)
 plt.show()
 
